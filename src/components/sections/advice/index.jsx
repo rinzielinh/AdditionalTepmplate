@@ -59,7 +59,15 @@ const Advice = forwardRef(({ data }, _ref) => {
 
     useImperativeHandle(_ref, () => ({
         getAdvice: () => {
-            return advice.concat(text) ;
+            const adviceArr = advice.filter(element => {
+                return element !== undefined;
+            });
+
+            const textArr = text.filter(element => {
+                return element !== undefined;
+            });
+
+            return adviceArr.concat(textArr) ;
         }
 
     }))

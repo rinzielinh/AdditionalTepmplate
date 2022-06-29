@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import Advice from './advice'
 import '../../styles/custom.css'
+import '../../App.css'
 
 const Main = ({data}) => {
     const [essAdvice, setEssAdvice] = useState(false);
@@ -11,9 +12,13 @@ const Main = ({data}) => {
     
 
     const getChildState = () => {
+       
         console.log('preChildState :>> ', preChildStateRef.current.getAdvice());
         console.log('postChildState :>> ', postChildStateRef.current.getAdvice());
-        console.log('essChildState :>> ', essChildStateRef.current.getAdvice());
+        if ( essAdvice ) {
+            console.log('essChildState :>> ', essChildStateRef.current.getAdvice());
+        }
+        
     }
 
     let sizePre = 0;
