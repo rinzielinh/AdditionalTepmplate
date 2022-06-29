@@ -1,0 +1,87 @@
+@use './custom.css';
+
+
+
+$primary : rgb(75, 148, 244);
+$bgcolor: #f8f8f8;
+$border: #ccc;
+$RopaSans : 'Ropa Sans', sans-serif;
+
+.main {
+    width: 100%;
+    margin: auto;
+}
+.container {
+    margin: auto 10%;
+}
+header {
+    text-align: center;
+    font-family: $RopaSans ;
+    font-size: 40px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+input.free-text {
+    width: 100%;
+    height: 60px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    border: 2px solid $border;
+    border-radius: 4px;
+    background-color: $bgcolor;
+    font-size: 16px;
+    resize: none;
+    outline-color: $primary;
+    font-family: $RopaSans ;
+}
+
+textarea {
+    width: 60%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid $border;
+    border-radius: 4px;
+    background-color: $bgcolor;
+    font-size: 16px;
+    resize: none;
+    outline-color: $primary;
+}
+
+button {
+    font-family: $RopaSans ;
+    background-color: $primary;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.top-select {
+    justify-content: center;
+}
+
+.category {
+    font-size: 30px !important;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-family: $RopaSans ;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1360px, xxxl: 1860px);
+$container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1300px, xxxl: 1800px);
+
+.wrapper-questions {
+    width: 80%;
+    margin-left: 15%;
+    font-family: $RopaSans ;
+    font-size: 20px;
+}
+

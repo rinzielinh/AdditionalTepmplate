@@ -1,0 +1,452 @@
+@import "./custom.scss";
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap"); 
+.main {
+  width: min(100% - 1rem);
+}
+
+input.free-text {
+  width: 100%;
+  height: 60px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+}
+
+textarea {
+  width: 60%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+}
+
+button {
+  background-color: rgb(75, 148, 244);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.main {
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  margin: auto 10%;
+}
+
+header {
+  text-align: center;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 40px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+input.free-text {
+  width: 100%;
+  height: 60px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+  font-family: "Ropa Sans", sans-serif;
+}
+
+textarea {
+  width: 60%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+}
+
+button {
+  font-family: "Ropa Sans", sans-serif;
+  background-color: rgb(75, 148, 244);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.top-select {
+  justify-content: center;
+}
+
+.category {
+  font-size: 30px !important;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-questions {
+  width: 80%;
+  margin-left: 15%;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=custom.css.map */
+.main {
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  margin: auto 10%;
+}
+
+header {
+  text-align: center;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 40px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+input.free-text {
+  width: 100%;
+  height: 60px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+  font-family: "Ropa Sans", sans-serif;
+}
+
+textarea {
+  width: 60%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+}
+
+button {
+  font-family: "Ropa Sans", sans-serif;
+  background-color: rgb(75, 148, 244);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.top-select {
+  justify-content: center;
+}
+
+.category {
+  font-size: 30px !important;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-questions {
+  width: 80%;
+  margin-left: 15%;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=custom.css.map */
+.main {
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  margin: auto 10%;
+}
+
+header {
+  text-align: center;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 40px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+input.free-text {
+  width: 100%;
+  height: 60px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+  font-family: "Ropa Sans", sans-serif;
+}
+
+textarea {
+  width: 60%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+}
+
+button {
+  font-family: "Ropa Sans", sans-serif;
+  background-color: rgb(75, 148, 244);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.top-select {
+  justify-content: center;
+}
+
+.category {
+  font-size: 30px !important;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-questions {
+  width: 80%;
+  margin-left: 15%;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=custom.css.map */
+.main {
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  margin: auto 10%;
+}
+
+header {
+  text-align: center;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 40px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+input.free-text {
+  width: 100%;
+  height: 60px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+  font-family: "Ropa Sans", sans-serif;
+}
+
+textarea {
+  width: 60%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+}
+
+button {
+  font-family: "Ropa Sans", sans-serif;
+  background-color: rgb(75, 148, 244);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.top-select {
+  justify-content: center;
+}
+
+.category {
+  font-size: 30px !important;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-questions {
+  width: 80%;
+  margin-left: 15%;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=custom.css.map */
+.main {
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  margin: auto 10%;
+}
+
+header {
+  text-align: center;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 40px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+input.free-text {
+  width: 100%;
+  height: 60px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+  font-family: "Ropa Sans", sans-serif;
+}
+
+textarea {
+  width: 60%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline-color: rgb(75, 148, 244);
+}
+
+button {
+  font-family: "Ropa Sans", sans-serif;
+  background-color: rgb(75, 148, 244);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.top-select {
+  justify-content: center;
+}
+
+.category {
+  font-size: 30px !important;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-questions {
+  width: 80%;
+  margin-left: 15%;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 20px;
+}/*# sourceMappingURL=custom.css.map */
